@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product card</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card-left">
+            <div class="main-image">
+                    <img src="img1.jpg" alt="img">
+                    <img src="img2.jpg" alt="img">
+                    <img src="img3.jpg" alt="img">
+                    <img src="img4.jpg" alt="img"> 
+            </div>
+        
+            <div class="img-select">
+                <div class="img active">
+                    <a href="#" data-id="1"><img src="img1.jpg"></a>
+                </div>
+                <div class="img">
+                    <a href="#" data-id="2"><img src="img2.jpg"></a>
+                </div>
+                <div class="img">
+                    <a href="#" data-id="3"><img src="img3.jpg"></a>
+                </div>
+                <div class="img">
+                    <a href="#" data-id="4"><img src="img4.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <div class="card-right">
+          <h2>Canon EOS 1500D</h2>
+          <div class="star">
+           <div class="star-group">
+            <ion-icon class="stars activeStar" name="star"></ion-icon>
+            <ion-icon class="stars activeStar" name="star"></ion-icon>
+            <ion-icon class="stars activeStar" name="star"></ion-icon>
+            <ion-icon class="stars"  name="star"></ion-icon>
+            <ion-icon class="stars" name="star"></ion-icon>
+           </div>
+           <span>3 reviews</span>
+
+          </div>
+          <h4>39.00$ <span>59.00$</span></h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid voluptas placeat maiores quasi illo. Nisi sequi laboriosam pariatur beatae impedit quas, delectus fugit ex distinctio magnam sit culpa. Ad sint aperiam non hic temporibus. Dignissimos.</p>
+          <div class="form">
+            <div class="form-group">
+                <label for="">Color</label>
+                <select >
+                    <option value="">Black</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="lab">Qty</label>
+                <div class="input-group">
+                    <button class="minus">-</button>
+                    <input type="text" value="1" id="qty" max="10">
+                    <button class="plus">+</button>
+
+                </div>
+            </div>
+          </div>
+          <button class="btn-cart">Add Card</button>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

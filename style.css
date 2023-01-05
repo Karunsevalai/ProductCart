@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #efeff0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1100px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    padding: 10px;
+}
+
+.main-image>img{
+    width: 600px !important;
+    height: 340px;
+    
+}
+
+.card-left{
+    width: 600px;
+    overflow: hidden;
+}
+.main-image{
+    display: flex;
+    transition: all 0.5s ease;
+}
+.img-select img{
+    width: 100%;
+    display: block;
+}
+.img{
+    border: 5px solid rgb(255, 255, 255);
+}
+.img-select{
+    margin-top: 2px;
+    display: flex;
+}
+.active{
+    border: 5px solid black;
+}
+.card-right{
+     width: 500px;
+     padding: 20px;
+}
+
+.card-right h2{
+    font-weight: 400;
+}
+.star{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.stars{
+  color: rgba(0,0,0,0.5);
+}
+.activeStar{
+    color: rgb(255, 174, 0);
+}
+
+.card-right h4{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-right h4 span{
+    color: rgba(0,0,0,0.5);
+    font-size: 13px;
+    text-decoration: line-through;
+}
+.card-right p{
+  margin: 15px;
+  color: rgba(0,0,0,0.5);
+  padding: 10px 0;
+}
+.form{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-group select{
+    width: 200px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 8px 10px;
+    border-radius: 2px;
+}
+
+.btn-cart{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #FF8401;
+    font-size: 16px;
+}
+.input-group input{
+    width: 40px;
+    padding: 8px 0;
+    padding-left: 14px;
+    outline: none;
+    font-size: 18px;
+}
+.input-group{
+    background-color: black;
+}
+
+.form-group button{
+    cursor: pointer;
+    width: 30px;
+    padding: 8px 10px;
+    border-radius: none;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+}
+
